@@ -172,6 +172,9 @@ section#topContainer .stats .topThirdDiv .topLeftThirdDiv i {
   color: #21AEFE;
   font-weight: bold;
 }
+section#topContainer .stats .topThirdDiv .topLeftThirdDiv i:hover {
+  cursor: pointer;
+}
 section#topContainer .stats .topThirdDiv .topRightThirdDiv {
   float: right;
   width: 190px;
@@ -240,9 +243,10 @@ section#bottomContainer {
 }
 section#bottomContainer .financeJourney {
   width: 100%;
-  height: 470px;
+  height: 760px;
   background-color: white;
   border-top: 3px solid #C8C8C8;
+  margin-bottom: 40px;
 }
 section#bottomContainer .financeJourney .topPart {
   width: 100%;
@@ -250,7 +254,7 @@ section#bottomContainer .financeJourney .topPart {
   border-bottom: 1px solid #C8C8C8;
 }
 section#bottomContainer .financeJourney .topPart .topLeftPart {
-  width: 50%;
+  width: 70%;
   height: 100%;
   float: left;
   color: #656764;
@@ -261,48 +265,56 @@ section#bottomContainer .financeJourney .topPart .topRightPart {
   padding: 16px 10px 0 0;
   color: #656764;
 }
-section#bottomContainer .financeJourney .firstPart {
-  width: 100%;
-  height: 120px;
-  margin-top: 13px;
+section#bottomContainer .financeJourney .topPart .topRightPart i:hover {
+  cursor: pointer;
 }
-section#bottomContainer .financeJourney .firstPart .firstLeftPart {
+section#bottomContainer .financeJourney .bottomPartDivs {
+  width: 100%;
+  height: 230px;
+}
+section#bottomContainer .financeJourney .bottomPartDivs .bottomLeftPart {
   width: 22%;
   height: 100%;
   float: left;
-  padding: 30px 0 0 40px;
+  text-align: center;
+  padding-top: 80px;
   font-size: 11px;
   color: #656764;
   border-right: 1px solid #C8C8C8;
 }
-section#bottomContainer .financeJourney .firstPart .firstLeftPart span {
+section#bottomContainer .financeJourney .bottomPartDivs .bottomLeftPart span {
   color: #30AD23;
   font-weight: bold;
 }
-section#bottomContainer .financeJourney .firstPart .firstMidPart {
+section#bottomContainer .financeJourney .bottomPartDivs .bottomMidPart {
   height: 100%;
   width: 56%;
   float: left;
   border-bottom: 1px solid #C8C8C8;
 }
-section#bottomContainer .financeJourney .firstPart .firstMidPart .firstMidLeftPart {
-  height: 20%;
+section#bottomContainer .financeJourney .bottomPartDivs .bottomMidPart .bottomMidTopPart {
+  height: 30%;
+  width: 100%;
+}
+section#bottomContainer .financeJourney .bottomPartDivs .bottomMidPart .bottomMidTopPart .bottomMidTopLeftPart {
+  height: 100%;
   float: left;
   width: 50%;
-  padding: 3px 0 0 14px;
+  text-align: center;
+  padding-top: 22px;
 }
-section#bottomContainer .financeJourney .firstPart .firstMidPart .firstMidLeftPart p {
+section#bottomContainer .financeJourney .bottomPartDivs .bottomMidPart .bottomMidTopPart .bottomMidTopLeftPart p {
   color: #30AD23;
   font-size: 13px;
   font-weight: bold;
 }
-section#bottomContainer .financeJourney .firstPart .firstMidPart .firstMidRightPart {
-  height: 20%;
+section#bottomContainer .financeJourney .bottomPartDivs .bottomMidPart .bottomMidTopPart .bottomMidTopRightPart {
+  height: 100%;
   width: 50%;
   float: right;
-  padding-left: 15px;
+  padding: 22px 0 0 15px;
 }
-section#bottomContainer .financeJourney .firstPart .firstMidPart .firstMidRightPart .smDiv {
+section#bottomContainer .financeJourney .bottomPartDivs .bottomMidPart .bottomMidTopPart .bottomMidTopRightPart .smDiv {
   height: 14px;
   width: 60px;
   background-color: #30AD23;
@@ -313,13 +325,34 @@ section#bottomContainer .financeJourney .firstPart .firstMidPart .firstMidRightP
   text-align: center;
   display: inline-block;
 }
-section#bottomContainer .financeJourney .firstPart .firstMidPart .firstMidRightPart .smDiv:hover {
+section#bottomContainer .financeJourney .bottomPartDivs .bottomMidPart .bottomMidTopPart .bottomMidTopRightPart .smDiv:hover {
   cursor: pointer;
 }
-section#bottomContainer .financeJourney .firstPart .firstRightPart {
+section#bottomContainer .financeJourney .bottomPartDivs .bottomMidPart .bottomMidCenterPart {
+  height: 70%;
+  font-size: 14px;
+  color: #656764;
+  font-family: calibri;
+  font-weight: bold;
+}
+section#bottomContainer .financeJourney .bottomPartDivs .bottomMidPart .bottomMidCenterPart nav > ul {
+  list-style: none;
+}
+section#bottomContainer .financeJourney .bottomPartDivs .bottomMidPart .bottomMidCenterPart nav > ul > li > span {
+  color: #30AD23;
+}
+section#bottomContainer .financeJourney .bottomPartDivs .bottomRightPart {
   width: 22%;
   height: 100%;
-  float: right;
+  float: left;
+}
+section#bottomContainer .performance, section#bottomContainer .assumptions {
+  width: 100%;
+  height: 215px;
+  background-color: white;
+}
+section#bottomContainer .assumptions {
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */

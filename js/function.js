@@ -110,18 +110,68 @@ var myLineChart = new Chart(lchart, {
  
 });
 
-var dchart = document.getElementById("doughnutChart").getContext("2d");
+var dchartOne = document.getElementById("doughnutChartOne").getContext("2d");
 
-var myDoughnutChart = new Chart(dchart, {
+var myDoughnutChart = new Chart(dchartOne, {
     type: 'doughnut',
     data: {
       labels: [
-        "Debt",
-        "Equity"
+        "Debt%",
+        "Equity%"
     ],
     datasets: [
         {
-            data: [300, 100],
+            data: [80, 20],
+            backgroundColor: [
+                "#FF6384",
+                "#36A2EB",
+            ],
+            hoverBackgroundColor: [
+                "#FF6384",
+                "#36A2EB",
+            ]
+        }]
+    },
+    
+});
+
+var dchartTwo = document.getElementById("doughnutChartTwo").getContext("2d");
+
+var myDoughnutChart = new Chart(dchartTwo, {
+    type: 'doughnut',
+    data: {
+      labels: [
+        "Debt%",
+        "Equity%"
+    ],
+    datasets: [
+        {
+            data: [40, 60],
+            backgroundColor: [
+                "#FF6384",
+                "#36A2EB",
+            ],
+            hoverBackgroundColor: [
+                "#FF6384",
+                "#36A2EB",
+            ]
+        }]
+    },
+    
+});
+
+var dchartThree = document.getElementById("doughnutChartThree").getContext("2d");
+
+var myDoughnutChart = new Chart(dchartThree, {
+    type: 'doughnut',
+    data: {
+      labels: [
+        "Debt%",
+        "Equity%"
+    ],
+    datasets: [
+        {
+            data: [20, 80],
             backgroundColor: [
                 "#FF6384",
                 "#36A2EB",

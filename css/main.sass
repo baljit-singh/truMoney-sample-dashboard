@@ -30,7 +30,6 @@ header.navbar
 			color: white
 			padding: 0 0 12px 8px
 			position: relative
-			// width: 170px
 			line-height: 50px
 			font-family: candara
 			letter-spacing: 1px
@@ -182,6 +181,9 @@ section#topContainer
 					color: $thirdStat
 					font-weight: bold
 
+					&:hover
+						cursor: pointer
+
 			.topRightThirdDiv
 				float: right
 				width: 190px
@@ -251,9 +253,10 @@ section#bottomContainer
 	padding-bottom: 50px
 	.financeJourney
 		width: 100%
-		height: 470px
+		height: 760px
 		background-color: white
 		border-top: 3px solid $borderColor
+		margin-bottom: 40px
 
 		.topPart
 			width: 100%
@@ -261,7 +264,7 @@ section#bottomContainer
 			border-bottom: 1px solid $borderColor
 
 			.topLeftPart
-				width: 50%
+				width: 70%
 				height: 100%
 				float: left
 				color: $fontColor
@@ -272,17 +275,19 @@ section#bottomContainer
 				padding: 16px 10px 0 0
 				color: $fontColor
 
-		.firstPart
-			width: 100%
-			height: 120px
-			// background-color: yellow
-			margin-top: 13px
+				i:hover
+					cursor: pointer
 
-			.firstLeftPart
+		.bottomPartDivs
+			width: 100%
+			height: 230px
+
+			.bottomLeftPart
 				width: 22%
 				height: 100%
 				float: left
-				padding: 30px 0 0 40px
+				text-align: center
+				padding-top: 80px
 				font-size: 11px
 				color: $fontColor
 				border-right: 1px solid $borderColor
@@ -291,59 +296,77 @@ section#bottomContainer
 					color: $graphAverage
 					font-weight: bold
 
-			.firstMidPart
+			.bottomMidPart
 				height: 100%
 				width: 56%
 				float: left
-				// background-color: yellow
 				border-bottom: 1px solid $borderColor
 
-				.firstMidLeftPart
-					height: 20%
-					float: left
-					width: 50%
-					// background-color: blue
-					padding: 3px 0 0 14px
+				.bottomMidTopPart
+					height: 30%
+					width: 100%
 
-					p
-						color: $graphAverage
-						font-size: 13px
-						font-weight: bold
-
-				.firstMidRightPart
-					height: 20%
-					width: 50%
-					float: right
-					// background-color: red
-					padding-left: 15px
-
-
-					.smDiv
-						height: 14px
-						width: 60px
-						background-color: $graphAverage
-						border-radius: 3px
-						padding-top: 1px
-						font-size: 9px
-						color: white
+					.bottomMidTopLeftPart
+						height: 100%
+						float: left
+						width: 50%
 						text-align: center
-						display: inline-block
+						padding-top: 22px
 
-						&:hover
-							cursor: pointer
+						p
+							color: $graphAverage
+							font-size: 13px
+							font-weight: bold
 
-					// .smSecondDiv
-					// 	@extends .smFirstDiv
-						
+					.bottomMidTopRightPart
+						height: 100%
+						width: 50%
+						float: right
+						padding: 22px 0 0 15px
 
-			.firstRightPart
+
+						.smDiv
+							height: 14px
+							width: 60px
+							background-color: $graphAverage
+							border-radius: 3px
+							padding-top: 1px
+							font-size: 9px
+							color: white
+							text-align: center
+							display: inline-block
+
+							&:hover
+								cursor: pointer
+
+				.bottomMidCenterPart
+					height: 70%
+					
+					nav > ul 
+						list-style: none
+
+					nav > ul > li
+					font-size: 14px
+					color: $fontColor
+					font-family: calibri
+					font-weight: bold	
+
+					nav > ul > li >	span
+						color: $graphAverage	
+
+			.bottomRightPart
 				width: 22%
 				height: 100%
-				float: right
-				// background-color: blue
+				float: left
+				
+	.performance
+		width: 100%
+		height: 215px
+		background-color: white
 
-				// canvas#doughnutChart
-
+	.assumptions
+		@extend .performance
+		margin-top: 30px
 
 
 	
