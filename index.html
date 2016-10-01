@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TruMoney Trial</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar-collapse">
+    <header class="navbar navbar-fixed-top">
+      <div class="container-fluid">
+          <div class="navbar-header">
+              <div class="navbar-brand"><img src="./img/TruMoneyLogo.png" style="height: 50px"></img></div>
+              <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+          </div>
+          <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                  <li>
+                    <div class="dropdown">
+                      <button class="btn btnColor dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">DROPDOWN<span class="caret"></span></button>
+                      <ul class="dropdown-menu dropDown" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="active"><a href="#">PROFILE</a></li>
+                  <li>
+                    <div class="dropdown">
+                      <button class="btn btnColor dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">DROPDOWN<span class="caret"></span></button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">NET WORTH</a></li>
+                  <li><a href="#">CASH FLOW</a></li>
+              </ul>
+              <div class="user">
+                <p>Welcome to TruMoney, Kaustubh <span class="glyphicon glyphicon-user" aria-hidden="true"></span></p>
+              </div>
+          </div>
+      </div>
+  </header>
+  <section class="container" id="topContainer">
+    <div class="row">
+      <div class="col-md-4 colSize">
+        <div class="stats">
+          <div class="topDiv firstStat">
+            <div class="topLeftDiv">
+              <p>Retirement Corpus</p>
+            </div>
+            <div class="topRightDiv">
+              <div class="date firstStatDate">
+                <p>July 27, 2016</p>
+              </div>
+            </div>
+          </div>
+          <div class="midDiv moneyOne">
+            <i class="fa fa-rupee">48,37,263</i>
+          </div>
+          <div class="bottomDiv">
+            <div class="bottomRightDiv">
+              <p>Annualized Gain <span class="firstRate">18.7% <i class="fa fa-arrow-up" aria-hidden="true"></i></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 colSize">
+        <div class="stats">
+          <div class="topDiv secondStat">
+            <div class="topLeftDiv">
+              <p>Net Worth</p>
+            </div>
+            <div class="topRightDiv">
+              <div class="date secondStatDate">
+                <p>July 27, 2016</p>
+              </div>
+            </div>
+          </div>
+          <div class="midDiv moneySecond">
+            <i class="fa fa-rupee">1,02,25,003</i>
+          </div>
+          <div class="bottomDiv">
+            <div class="bottomRightDiv">
+              <p>Annualized Gain <span class="secondRate">16% <i class="fa fa-arrow-up" aria-hidden="true"></i></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 colSize">
+        <div class="stats">
+          <div class="topThirdDiv thirdStat">
+            <div class="topLeftThirdDiv">
+              <i class="fa fa-angle-left" aria-hidden="true"></i><span>  Upcoming Goal  </span><i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+            <div class="topRightThirdDiv">
+              <div class="model">
+                <p>Mercedes E-class Car</p>
+              </div>
+              <div class="thirdDate thirdStatDate">
+                <p>May 2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="midThirdDiv moneyThird">
+            <i class="fa fa-rupee">45,00,000</i>
+          </div>
+          <div class="bottomThirdDiv">
+            <div class="bottomLeftThirdDiv">
+              <p>Present Value: <i class="fa fa-rupee">18,00,000</i></p>
+            </div>
+            <div class="bottomRightThirdDiv">
+              <p>Percent Complete <span>40%</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="midContainer">
+    <div class="container">
+      <div class="row">
+        <canvas id="lineChart" height="70" width="200"></canvas>
+      </div>
+    </div>
+  </section>
+  <section class="container" id="bottomContainer">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="financeJourney">
+          <div class="topPart">
+            <div class="topLeftPart">
+              <p>Your Personal Finance Journey</p>
+            </div>
+            <div class="topRightPart">
+              <i class="fa fa-chevron-up" aria-hidden="true"></i>
+              <i class="fa fa-wrench" aria-hidden="true"></i>
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="firstPart">
+            <div class="firstLeftPart">
+              <p>May 2018</p>
+              <span>2 years away</span>
+              <p>Priority: 3</p>
+            </div>
+            <div class="firstMidPart">
+              <div class="firstMidLeftPart">
+                <p>Mercedes E-class Car</p>
+              </div>
+              <div class="firstMidRightPart">
+                <div class="smDiv">
+                  <p>Edit Goal</p>
+                </div>
+                <div class="smDiv">
+                  <p>View Chart</p>
+                </div>
+              </div>
+              <p>onouhpsnpn</p>
+            </div>
+            <div class="firstRightPart">
+              <canvas id="doughnutChart" height="200" width="200"></canvas>
+            </div>
+          </div>
+          <div class="secondPart">
+            <div class="secondLeftPart"></div>
+            <div class="secondMidPart"></div>
+            <div class="secondRightPart"></div>
+          </div>
+          <div class="thirdPart">
+            <div class="thirdLeftPart"></div>
+            <div class="thirdMidPart"></div>
+            <div class="thirdRightPart"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+ 
+  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/function.js"></script>
+  </body>
+</html>
+
