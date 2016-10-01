@@ -348,11 +348,122 @@ section#bottomContainer .financeJourney .bottomPartDivs .bottomRightPart {
 }
 section#bottomContainer .performance, section#bottomContainer .assumptions {
   width: 100%;
-  height: 215px;
+  height: 315px;
   background-color: white;
+  margin-top: 40px;
+  border-top: 3px solid #C8C8C8;
 }
-section#bottomContainer .assumptions {
-  margin-top: 30px;
+section#bottomContainer .performance .performanceTopDiv, section#bottomContainer .assumptions .performanceTopDiv {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #C8C8C8;
+}
+section#bottomContainer .performance .performanceTopDiv .performanceTopDivLeft, section#bottomContainer .assumptions .performanceTopDiv .performanceTopDivLeft {
+  width: 70%;
+  height: 100%;
+  float: left;
+  color: #656764;
+  padding: 16px 0 0 10px;
+}
+section#bottomContainer .performance .performanceTopDiv .performanceTopDivRight, section#bottomContainer .assumptions .performanceTopDiv .performanceTopDivRight {
+  float: right;
+  padding: 16px 10px 0 0;
+  color: #656764;
+}
+section#bottomContainer .performance .performanceTopDiv .performanceTopDivRight i:hover, section#bottomContainer .assumptions .performanceTopDiv .performanceTopDivRight i:hover {
+  cursor: pointer;
+}
+section#bottomContainer .performance .performanceMidDiv, section#bottomContainer .assumptions .performanceMidDiv {
+  height: 40%;
+  width: 100%;
+  background-color: #90EE90;
+  padding-top: 30px;
+}
+section#bottomContainer .performance .performanceMidDiv p#firstPar, section#bottomContainer .assumptions .performanceMidDiv p#firstPar {
+  text-align: center;
+  font-size: 22px;
+  font-family: calibri;
+}
+section#bottomContainer .performance .performanceMidDiv p#firstPar span, section#bottomContainer .assumptions .performanceMidDiv p#firstPar span {
+  margin-left: 40px;
+  color: #005e00;
+}
+section#bottomContainer .performance .performanceMidDiv p#secondPar, section#bottomContainer .assumptions .performanceMidDiv p#secondPar {
+  text-align: center;
+  font-size: 10px;
+  font-family: calibri;
+}
+section#bottomContainer .performance .performanceMidDiv p#secondPar i, section#bottomContainer .assumptions .performanceMidDiv p#secondPar i {
+  font-size: 7px;
+}
+section#bottomContainer .performance .performanceBottomDiv, section#bottomContainer .assumptions .performanceBottomDiv {
+  height: 45%;
+  width: 100%;
+}
+section#bottomContainer .performance .performanceBottomDiv .performanceBottomDivLeft, section#bottomContainer .assumptions .performanceBottomDiv .performanceBottomDivLeft {
+  height: 100%;
+  width: 70%;
+  text-align: center;
+  padding-top: 50px;
+  float: left;
+  line-height: 7px;
+  font-family: calibri;
+}
+section#bottomContainer .performance .performanceBottomDiv .performanceBottomDivLeft a, section#bottomContainer .assumptions .performanceBottomDiv .performanceBottomDivLeft a {
+  font-size: 10px;
+  color: #005e00;
+}
+section#bottomContainer .performance .performanceBottomDiv .performanceBottomDivRight, section#bottomContainer .assumptions .performanceBottomDiv .performanceBottomDivRight {
+  height: 100%;
+  width: 30%;
+  float: right;
+  text-align: center;
+  padding-top: 30px;
+}
+section#bottomContainer .performance .performanceBottomDiv .performanceBottomDivRight i, section#bottomContainer .assumptions .performanceBottomDiv .performanceBottomDivRight i {
+  font-size: 60px;
+  color: #005e00;
+}
+section#bottomContainer .assumptions .assumptionsTopDiv {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #C8C8C8;
+}
+section#bottomContainer .assumptions .assumptionsTopDiv .assumptionsTopDivLeft {
+  width: 70%;
+  height: 100%;
+  float: left;
+  color: #656764;
+  padding: 16px 0 0 10px;
+}
+section#bottomContainer .assumptions .assumptionsTopDiv .assumptionsTopDivRight {
+  float: right;
+  padding: 16px 10px 0 0;
+  color: #656764;
+}
+section#bottomContainer .assumptions .assumptionsTopDiv .assumptionsTopDivRight i:hover {
+  cursor: pointer;
+}
+section#bottomContainer .assumptions .assumptionsBottomDiv {
+  width: 100%;
+  height: 260px;
+  padding: 60px 100px 0 0;
+}
+section#bottomContainer .assumptions .assumptionsBottomDiv p {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: calibri;
+  text-align: right;
+  margin-left: 50px;
+}
+section#bottomContainer .assumptions .assumptionsBottomDiv p span {
+  margin: 0 10px 0 10px;
+  border-bottom: 1px solid #C8C8C8;
+  color: #005e00;
+}
+section#bottomContainer .assumptions .assumptionsBottomDiv p i {
+  color: #C8C8C8;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */
