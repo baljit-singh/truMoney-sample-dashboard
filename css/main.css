@@ -54,6 +54,9 @@ header.navbar ul.navbar-nav li a:hover {
   background-color: #005e00;
   font-weight: bold;
 }
+header.navbar ul.navbar-nav li a:active {
+  background-color: #005e00;
+}
 header.navbar .user {
   float: right;
   color: white;
@@ -464,6 +467,61 @@ section#bottomContainer .assumptions .assumptionsBottomDiv p span {
 section#bottomContainer .assumptions .assumptionsBottomDiv p i {
   color: #C8C8C8;
   cursor: pointer;
+}
+
+footer {
+  margin: 0;
+  height: 180px;
+  width: 100%;
+  background-color: #30AD23;
+}
+footer nav ul.About {
+  float: left;
+  line-height: 28px;
+  list-style: none;
+  padding-top: 20px;
+}
+footer nav ul.About li.head {
+  font-weight: bold;
+  font-size: 18px;
+  color: #005e00;
+}
+footer nav ul.About li, footer nav ul.About a {
+  color: white;
+}
+footer nav ul.About li:hover, footer nav ul.About a:hover {
+  text-decoration: none;
+}
+footer nav ul.socialIcons {
+  float: right;
+  padding: 125px 20px 0 0;
+}
+footer nav ul.socialIcons > li {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 10px;
+}
+footer nav ul.socialIcons > li > a {
+  color: #433F40;
+}
+footer nav ul.socialIcons > li > a:hover, footer nav ul.socialIcons > li > a:active {
+  text-decoration: none;
+  color: #222222;
+}
+
+.smallFooter p {
+  font-size: 15px;
+  color: white;
+  font-family: calibri;
+  display: inline;
+}
+.smallFooter p.copyright {
+  float: left;
+  padding: 4px 0 0 4px;
+}
+.smallFooter p.madeBy {
+  float: right;
+  padding: 4px 4px 0 0;
 }
 
 /*# sourceMappingURL=main.css.map */
